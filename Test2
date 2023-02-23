@@ -1,0 +1,530 @@
+"policyID","contractName","policyName","addUnlistedPatient","connectActive"
+1,"CarePro Default Contract","CAREPRO HEALTH SERVICES",True,True
+62,"Mercy Premium Subscriptions","MERCY - MEDICAID PHARMACEUTICAL CASE MANAGEMENT",False,True
+97,"Mercy Premium Subscriptions","IOWA PHARMACEUTICAL CASE MANAGEMENT",False,True
+142,"MedicareFirst Default Contract","MEDI-CAREFIRST PDP",True,True
+147,"Health Plan of San Mateo Default Contract","HEALTH PLAN OF SAN MATEO - CAREADVANTAGE",True,True
+168,"Partnership Health Plan (PHC) Default Contract","PARTNERSHIP HEALTH PLAN",True,True
+224,"Senior Whole Health Default Contract","SENIOR WHOLE HEALTH MEDICARE",True,True
+225,"College of Pharmacy Default Contract","COP-College of Pharmacy",False,True
+232,"Alameda Default Contract 1","ALAMEDA ALLIANCE FOR HEALTH - MEDICARE PART D",True,True
+242,"Medica Default Contract","MEDICA MEDICARE PART D MEMBERS",True,True
+249,"Mercy Default Contract","MERCY MEDICAL CENTER - DUBUQUE",False,True
+252,"MidRogue Default Contract","CARESOURCE - MID ROGUE MEDICARE PART D",True,True
+253,"Security Health Default Contract","SECURITY HEALTH-ADVOCARE MEDICARE PART D PLANS",True,True
+255,"L.A. Care Default Contract","LA CARE SNP MEDICARE PART D",True,True
+258,"Humana Default Contract","HUMANA COMMERCIAL",True,True
+260,"Humana Referral Program","HUMANA REFERRING PROGRAMS",False,True
+370205,"Automation Contract","Automation Policy 13",True,True
+263,"Nationwide Children's Hospital Premium Subscriptio","NATIONWIDE NORTHLAND ASTHMA",False,True
+264,"Nationwide Children's Hospital Premium Subscriptio","NATIONWIDE WESTSIDE ASTHMA",False,True
+265,"Nationwide Children's Hospital Premium Subscriptio","NATIONWIDE EMPLOYEE DIABETES",False,True
+266,"Nationwide Children's Hospital Premium Subscriptio","NATIONWIDE DISCHARGE TEACHING",False,True
+267,"Nationwide Children's Hospital Premium Subscriptio","NATIONWIDE IDC",False,True
+270,"Communty Health Group Default Contract","COMMUNITY HEALTH GROUP",True,True
+271,"iCare Default Contract","ICARE - INDEPENDENT CARE HEALTH PLAN",True,True
+287,"Nationwide Children's Hospital Premium Subscriptio","NATIONWIDE ANTICOAGULATION SERVICE",False,True
+290,"Spectral Solutions Default Contract","AMERICAS 1ST CHOICE OF NC- SPECTRAL SOLUTIONS",True,True
+291,"Spectral Solutions Default Contract","FREEDOM HEALTH- SPECTRAL SOLUTIONS",True,True
+292,"Spectral Solutions Default Contract","OPTIMUM HEALTHCARE-SPECTRAL SOLUTIONS",True,True
+293,"Spectral Solutions Default Contract","AMERICAS 1ST CHOICE OF SC- SPECTRAL SOLUTIONS",True,True
+298,"Humana Default Contract","HUMANA MED ADHERENCE - INTERNAL",False,True
+299,"Nationwide Children's Hospital Premium Subscriptio","NATIONWIDE PRIMARY CARE RED/YELLOW",False,True
+307,"Lehan Group","PS-LEHAN GROUP",False,True
+308,"Nationwide Children's Hospital Premium Subscriptio","NATIONWIDE SOUTH HIGH CLINIC",False,True
+309,"Nationwide Children's Hospital Premium Subscriptio","NATIONWIDE CF CLINIC",False,True
+315,"Humana Default Contract","HUMANA FOCUSED COMMERCIAL (LIMITED MTMS)",True,True
+316,"Humana Default Contract","HUMANA FOCUSED PART D (LIMITED MTMS)",True,True
+317,"Humana Default Contract","HUMANA PREFERRED RX MTM",False,True
+318,"Priority Health Default Contract","PRIORITY HEALTH",True,True
+319,"PacificSource Default Contract","PACIFICSOURCE MEDICARE",True,True
+320,"Humana Default Contract","HUMANA PART D",True,True
+323,"Humana Default Contract","HUMANA PUERTO RICO",True,True
+325,"Health Plan of San Mateo Default Contract","HEALTH PLAN OF SAN MATEO - REFERRALS",True,True
+337,"Aurora Default Contract","AURORA MTM PROGRAM",True,True
+338,"CareFirst Commercial Default Contract","CAREFIRST COMMERCIAL POPULATION",True,True
+343,"Walgreens Premium Subscription","STERLING CONNECT 1",False,True
+350,"AultCare Default Contract","PRIMETIME HEALTH PLAN PPO",True,True
+351,"AultCare Default Contract","PRIMETIME HEALTH PLAN HMO",True,True
+370206,"Automation Contract","Automation Policy 14",True,True
+353,"Little Company of Mary","LITTLE COMPANY OF MARY",False,True
+357,"BCBS ND Default Contract","BCBS ND COMMERCIAL POPULATION",True,True
+370197,"Automation Contract","Automation Policy 2",True,True
+366,"Spectral Solutions Default Contract","EASY CHOICE HEALTH PLAN OF NEW YORK- SPECTRAL SOLUTIONS",True,True
+372,"Allina Default Contract","ALLINA HEALTH SYSTEM",False,True
+374,"Walgreens Premium Subscription","DHS-HH",False,True
+375,"Walgreens Premium Subscription","U-PLAN",False,True
+376,"Walgreens Premium Subscription","DAILYMED",False,True
+370198,"Automation Contract","Automation Policy 3",True,True
+379,"CareSource Default Contract","CARESOURCE MEDICARE",True,True
+383,"Health Partners Default Contract","HEALTH PARTNERS MEDICAID",True,True
+388,"Amerigroup Default Contract","AMERIGROUP KANSAStest",True,True
+389,"AultCare Default Contract","AULTONE",True,True
+390,"CareSource Default Contract","CARESOURCE KENTUCKY MEDICAID",True,True
+395,"Walgreens Premium Subscription","ACO DISCHARGE_copy #2",False,True
+397,"Blue Shield of California Default Contract","BLUE SHIELD OF CALIFORNIA PDP",True,True
+402,"Medica Default Contract","MCHA - MINNESOTA COMPREHENSIVE HEALTH ASSOCIATION",True,True
+404,"Humana Referral Program","HUMANA NETWORK REFERRAL",True,True
+405,"AultCare Default Contract","AULTCARE-GREER STEEL",True,True
+408,"AultCare Default Contract","AULTCARE-AULTMAN HOSPITAL",True,True
+409,"CHC OF CAPE COD","CHC OF CAPE COD",False,True
+410,"Hy-Vee Employees Default Contract","HY-VEE EMPLOYEES",True,True
+411,"Blue Shield of California Default Contract","Blue Shield Commercial HMO",True,True
+412,"TRINITY PIONEER ACO","TRINITY PIONEER ACO",True,True
+413,"United Health Care","UHC-AARP MEDICARECOMPLETE",True,True
+414,"United Health Care","UHC-ERICKSON ADVANTAGE",True,True
+415,"United Health Care","UHC-SHARP SECUREHORIZONS PLAN",True,True
+417,"United Health Care","UHC-UNITEDHEALTHCARE NURSING HOME PLAN",True,True
+420,"AultCare Default Contract","AULTCARE REFERRAL",True,True
+421,"Humana Default Contract","HUMANA STARS PROGRAM (DTM)",True,True
+424,"PacificSource Default Contract","PACIFICSOURCE REFERRALS",False,True
+428,"TPA - TEXAS MEDICAID Default Contract","TPA- ASTHMA",False,True
+429,"TRINITY PIONEER ACO","TRINITY ACO REFERRALS",True,True
+435,"Health Partners Default Contract","HEALTH PARTNERS MEDICARE",True,True
+436,"OUTCOMESMTM default contract","OUTCOMESMTM EMPLOYEE  MTM PROGRAM",True,True
+437,"AultCare Default Contract","AULTCARE- MARKET PLACE HMO",True,True
+438,"AultCare Default Contract","AULTCARE- MARKET PLACE INDIVIDUAL",True,True
+439,"AultCare Default Contract","AULTCARE- MARKET PLACE PMIC",True,True
+441,"BlueCross BlueShield of Tennesee default contract","BLUECROSS BLUESHIELD TENNESEE - BLUEADVANTAGE PPO",True,True
+442,"BlueCross BlueShield of Tennesee default contract","BLUECROSS BLUESHIELD TENNESEE- BLUECHOICE HMO",True,True
+443,"BlueCross BlueShield of Tennesee default contract","BLUECROSS BLUESHIELD TENNESEE - BLUECARE PLUS SNP",True,True
+444,"Hometown Health default contract","SENIOR CARE PLUS HMO (HOMETOWN HEALTH)",True,True
+445,"Hometown Health default contract","SENIOR CARE PLUS FREEDOM RX PPO (HOMETOWN HEALTH)",True,True
+449,"BCBS ND Default Contract","Arkansas BlueCross BlueShield MAPD - PFFS (H4213)",True,True
+450,"BCBS ND Default Contract","Arkansas BCBS MAPD - PPO (H8091)",True,True
+452,"BCBS ND Default Contract","Capital Health Plan (H5938)",True,True
+453,"BCBS ND Default Contract","PrimeWest Senior Health Complete",True,True
+454,"BCBS ND Default Contract","Prime Health Complete",True,True
+459,"CareSource Default Contract","CareSource Ohio Exchange – Just4Me",True,True
+460,"Health Plan of San Mateo Default Contract","Health Plan of San Mateo - CareAdvantage CMC",True,True
+497,"St. Vincent de Paul Charitable Pharmacy","SVdP - Cincinnati",False,True
+499,"Communty Health Group Default Contract","Communicare Advantage Cal MediConnect Plan",True,True
+500,"L.A. Care Default Contract","LA Care CalMediConnect (CMC) Plan",True,True
+501,"United Health Care","UHC-UnitedHealthcare Dual SNP",True,True
+502,"BCBS ND Default Contract","BlueCross BlueShield of Tennesse - Blue Rx",True,True
+503,"BCBS ND Default Contract","Blue Cross and Blue Shield of Minnesota - Medicare HMO",True,True
+504,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Medicare- PCMH",False,True
+505,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Commercial- PCMH",False,True
+508,"IPA NMP","IPA NPM",False,True
+509,"BCBS ND Default Contract","BCBS of Alabama and BCBS Tennessee BlueRx (S1030)-STAR",True,True
+510,"BCBS ND Default Contract","BCBS Alabama Blue Advantage (H0104)-STAR",True,True
+511,"BCBS ND Default Contract","Capital Health Plan (H5938)-STAR",True,True
+512,"BCBS ND Default Contract","PrimeWest Senior Health Complete (H2416)-STAR",True,True
+513,"BCBS ND Default Contract","Prime Health Complete (H2926)-STAR",True,True
+506,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Medicare BlueCHiP",True,True
+384,"Amerigroup Default Contract","AMERIGROUP COMMUNITY CARE TEXAS",True,True
+257,"Humana Default Contract","HUMANA MTM",True,True
+416,"United Health Care","UHC-UNITEDHEALTHCARE MEDICARE",True,True
+440,"AultCare Default Contract","AULTCARE- MARKET PLACE MLIC",True,True
+498,"CareSource Default Contract","CareSource MyCare Ohio",True,True
+514,"BCBS ND Default Contract","Arkansas BCBS MEDI-PAK MAPD (H4213)-STAR",True,True
+515,"BCBS ND Default Contract","Arkansas BCBS MEDI-PAK MAPD (H8091)-STAR",True,True
+516,"BCBS ND Default Contract","Arkansas BCBS MEDI-PAK PDP (S5795)-STAR",True,True
+517,"BCBS ND Default Contract","Arkansas BCBS MEDI-PAK MAPD (H9699)-STAR",True,True
+519,"BCBS ND Default Contract","BCBS of South Carolina PDP (S5953)-STAR",True,True
+521,"BCBS ND Default Contract","BCBS of South Carolina - Medicare Blue",True,True
+522,"BCBS ND Default Contract","BCBS of South Carolina - MedBlue Rx",True,True
+523,"BCBS ND Default Contract","BCBS of North Carolina HMO(H3449) - STAR",True,True
+524,"BCBS ND Default Contract","BCBS of North Carolina PPO(H3404) - STAR",True,True
+525,"BCBS ND Default Contract","Florida Blue–BlueMedicare PPO(H5434)- STAR",True,True
+526,"BCBS ND Default Contract","Florida Blue–BlueMedicare HMO(H1026)- STAR",True,True
+527,"Humana Default Contract","Humana MTM - PDP",False,True
+528,"BCBS ND Default Contract","BCBS OF NORTH CAROLINA – BLUEMEDICARE HMO",True,True
+529,"BCBS ND Default Contract","BCBS OF NORTH CAROLINA – BLUEMEDICARE PPO",True,True
+530,"BCBS ND Default Contract","BCBS OF NORTH CAROLINA – BLUE MEDICARE RX",True,True
+533,"BCBS ND Default Contract","BCBS OF ALABAMA BLUE ADVANTAGE",True,True
+534,"BCBS ND Default Contract","FLORIDA BLUE - BLUEMEDICARE HMO",True,True
+535,"BCBS ND Default Contract","FLORIDA BLUE - BLUE MEDICARE PPO",True,True
+536,"NuCara","NuCara Employees",False,True
+537,"Health Net","Health Net",True,True
+538,"Passport Health Plan","Passport Health Plan",True,True
+539,"Humana Default Contract","Humana DTM",True,True
+540,"BCBS ND Default Contract","BCBS of Illinois (H3822)",True,True
+541,"BCBS ND Default Contract","BCBS of Texas (H1666)",True,True
+542,"BCBS ND Default Contract","BCBS of New Mexico HMO (H3822)",True,True
+543,"BCBS ND Default Contract","BCBS of New Mexico PPO (H8634)",True,True
+544,"BCBS ND Default Contract","BCBS of Montana (H0107)",True,True
+545,"BCBS ND Default Contract","BCBS of Oklahoma HMO (H3979)",True,True
+546,"BCBS ND Default Contract","BCBS of Oklahoma PPO(H8634)",True,True
+547,"Humana Default Contract","HUMANA MED ADHERENCE",True,True
+370172,"Automation Contract","Automation Policy 9",True,True
+549,"San Francisco Health Plan","San Francisco Health Plan",True,True
+551,"iPAC- TX","iPAC- TX",False,True
+552,"BCBS ND Default Contract","BCBS OF NORTH CAROLINA (COMMERCIAL UWN)",True,True
+553,"BCBS ND Default Contract","BCBS OF NORTH CAROLINA (COMMERCIAL IND)",True,True
+561,"MCS","MCS Classicare Platino",True,True
+562,"MCS","MCS Classicare",True,True
+500,"L.A. Care Default Contract","LA Care CalMediConnect (CMC) Plan",True,True
+337,"Aurora Default Contract","AURORA MTM PROGRAM",False,True
+527,"Humana Default Contract","Humana MTM - PDP",True,True
+512,"BCBS ND Default Contract","PrimeWest Senior Health Complete (H2416)-STAR",True,True
+513,"BCBS ND Default Contract","Prime Health Complete (H2926)-STAR",True,True
+504,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Medicare- PCMH",True,True
+505,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Commercial- PCMH",True,True
+448,"BCBS ND Default Contract","Arkansas BlueCross BlueShield PDP (S5795)",True,True
+452,"BCBS ND Default Contract","Capital Health Plan (H5938)",True,True
+528,"BCBS ND Default Contract","BCBS OF NORTH CAROLINA – BLUEMEDICARE HMO",True,True
+573,"Target Stars Program","TGT- Med D",False,True
+530,"BCBS ND Default Contract","BCBS OF NORTH CAROLINA – BLUE MEDICARE RX",True,True
+526,"BCBS ND Default Contract","Florida Blue–BlueMedicare HMO(H1026)- STAR",True,True
+525,"BCBS ND Default Contract","Florida Blue–BlueMedicare PPO(H5434)- STAR",True,True
+575,"Humana Default Contract","Humana MTM- PDP- Internal",False,True
+501,"United Health Care","UHC-UnitedHealthcare Dual SNP",True,True
+529,"BCBS ND Default Contract","BCBS OF NORTH CAROLINA – BLUEMEDICARE PPO",True,True
+537,"Health Net","Health Net",True,True
+523,"BCBS ND Default Contract","BCBS of North Carolina HMO(H3449) - STAR",True,True
+524,"BCBS ND Default Contract","BCBS of North Carolina PPO(H3404) - STAR",True,True
+503,"BCBS ND Default Contract","Blue Cross and Blue Shield of Minnesota - Medicare HMO",True,True
+581,"Priority Health Default Contract","Priority Health Commercial",True,True
+576,"CareSource Default Contract","CareSource Kentucky Exchange - Just4Me",True,True
+582,"United Health Care","UHC- Preferred Care Partners",True,True
+505,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Commercial- PCMH",False,True
+571,"Humana Default Contract","HUMANA HRM",True,True
+522,"BCBS ND Default Contract","BCBS of South Carolina - MedBlue Rx",True,True
+583,"United Health Care","UHC- Medica Healthcare",True,True
+450,"BCBS ND Default Contract","Arkansas BCBS MAPD - PPO (H8091)",True,True
+451,"BCBS ND Default Contract","Arkansas BCBS Health Advantage (HMO)-(H9699)",True,True
+453,"BCBS ND Default Contract","PrimeWest Senior Health Complete",True,True
+454,"BCBS ND Default Contract","Prime Health Complete",True,True
+534,"BCBS ND Default Contract","FLORIDA BLUE - BLUEMEDICARE HMO",True,True
+432,"BCBS ND Default Contract","Florida Blue - BlueMedicare PPO",True,True
+449,"BCBS ND Default Contract","Arkansas BlueCross BlueShield MAPD - PFFS (H4213)",True,True
+581,"Priority Health Default Contract","Priority Health Commercial",True,True
+337,"Aurora Default Contract","AURORA MTM PROGRAM",False,True
+249,"Mercy Default Contract","MERCY MEDICAL CENTER - DUBUQUE",False,True
+592,"OptumRx","OptumRx-UnitedHealthCare Connected",True,True
+593,"OptumRx","OptumRx-UnitedHealthcare Connected for MyCare Ohio",True,True
+594,"OptumRx","OptumRx-UnitedHealthcare Senior Care Options",True,True
+595,"OptumRx","OptumRx-UnitedHealthcare Community Plan",True,True
+596,"OptumRx","OptumRx-UnitedHealthcare",True,True
+597,"OptumRx","OptumRx-Sierra Spectrum",True,True
+598,"OptumRx","OptumRx-Senior Dimensions",True,True
+592,"OptumRx","OptumRx-UnitedHealthCare Connected",True,True
+593,"OptumRx","OptumRx-UnitedHealthcare Connected for MyCare Ohio",True,True
+599,"OptumRx","OptumRx-Erickson Advantage H5652",True,True
+561,"MCS","MCS Classicare Platino",True,True
+632,"UCare","UCare (MSHO)",True,True
+667,"United Health Care","UHC- Medication Synchronization",True,True
+669,"Evolent","Passport Advantage Medicare",False,True
+323,"Humana Default Contract","HUMANA PUERTO RICO",True,True
+735,"Humana Default Contract","Humana EMTM – High",True,True
+737,"Humana Default Contract","Humana EMTM – Low",True,True
+736,"Humana Default Contract","Humana EMTM – Medium",True,True
+738,"Humana Default Contract","Humana EMTM – Monitoring",True,True
+370196,"Automation Contract","Automation Policy 1",True,True
+370203,"Automation Contract","Automation Policy 10",True,True
+370151,"Automation Contract","Automation Policy 12",True,True
+30009,"CONTRACT20000","30009 PrimaryPatientIndicator",True,True
+30500,"CONTRACT20000","30500 POLICY (30500)",True,True
+10,"Outcomes Sample Client 1 Contract","Outcomes Sample Policy 1",True,True
+2002,"FUSE CONTRACT #1","FUSE TIP & PI POLICY #1",True,True
+370016,"Corkery LLC","Ziemann Inc (TIPS_ONLY)",True,True
+370017,"Corkery LLC","Champlin LLC (TIPS_ONLY)",True,True
+370018,"O'Kon-Schroeder","Koelpin, Ryan and Schultz (ONE_CMR_CAL_YEAR)",False,True
+370020,"Maggio, Rath and Ward","Will Group (NO_CMR,MULTI_CMRS_CAL_YEAR)",True,True
+370022,"Schowalter, Kshlerin and Braun","Rogahn, Thiel and Witting (ONE_CMR_CAL_YEAR)",False,True
+370023,"Schowalter, Kshlerin and Braun","Rowe and Sons (ONE_CMR_CAL_YEAR)",False,True
+370025,"Schowalter, Kshlerin and Braun","Schulist-Morar (ONE_CMR_CAL_YEAR)",True,True
+370026,"Outcomes Sample Client 1 Contract","Moen, Hoeger and Stehr (CMR_FIRST,TIPS_ONLY)",True,True
+370031,"Rosenbaum, Balistreri and O'Hara","Gleason Inc ()",False,True
+370032,"Bailey-McDermott","Koss and Sons (ATTESTATION_REQUIRED)",True,True
+370033,"Fisher Inc","Murray and Sons (CMR_FIRST,TIP_ONLY)",True,True
+370034,"Beahan, Gaylord and Wintheiser","Rohan, Kuhlman and Swift (CMR_FIRST,TIP_ONLY)",True,True
+370035,"Ziemann and Sons","Reichel-Crona (CMR_FIRST,TIP_ONLY)",False,True
+370040,"Dudebro's contract","Dudebro's Policy",True,True
+10,"Outcomes Sample Client 1 Contract","Outcomes Sample Policy 1",True,True
+370044,"test123","test1234",True,True
+370047,"Regression","Regression Policy 1",True,True
+370050,"Rau-Kulas","Sawayn and Sons (CMR_FIRST,TIP_ONLY)",True,True
+370051,"Rau-Kulas","Stoltenberg, Lesch and Hilll (CMR_FIRST,TIP_ONLY)",True,True
+370053,"Randy's Contract","Randys Policy",True,True
+370057,"Greenfelder LLC","Schimmel-Hand (MEDREC_FIRST)",False,True
+370060,"Randy's Solid Contract","Randy's Policy A Place that Cares",True,True
+370061,"Roberts and Sons","Ucare Test Policy (ATTESTATION_REQUIRED,CMR_FIRST)",True,True
+370062,"Wolf Inc","Test Unfinished MedRec (ENROLL_PATIENT,MEDICAL_DATA_TAB,MEDREC_FIRST)",False,True
+370065,"Hansen and Sons","Test policy for med rec (NO_PHONE_CMR)",False,True
+370072,"Johnston LLC","MedSync (MEDICAL_DATA_TAB)",False,True
+626,"ATRIO Health Plans","ATRIO Health Plans H6743",True,True
+625,"ATRIO Health Plans","ATRIO Health Plans H7006",True,True
+370067,"Randy's amazing contract","Randy's amazing policy",False,True
+20,"Outcomes Sample Client 2 Contract","Outcomes Sample Policy 2",True,True
+370046,"Awesome","Awesome",True,True
+370063,"Wolf Inc","Test Unfinished MedRec (ENROLL_PATIENT,MEDREC_FIRST)",True,True
+2006,"CONNECT CONTRACT #1","CONNECT MIMIC #527",True,True
+370066,"REGRESSION TEST CONTRACT #1","Cordyceps infection",False,True
+370064,"Cummerata, DuBuque and Tremblay","Med Rect Test Policy (HIDE_PRIOR_AUTH_CODE,DIAGNOSIS_CODES,ENROLL_PATIENT)",True,True
+370055,"Sporer-Hane","Shields, Hilll and Gaylord (CMR_FIRST)",True,True
+370045,"Volkman and Sons","Pacocha and Sons (NO_CMR,POLICY_SUPPLIES_THIER_OWN_PATIENT_LIST)",True,True
+370056,"Larson LLC","Lemke, VonRueden and Reilly (MEDREC_FIRST)",False,True
+370042,"Brakus, Wisoky and Cassin","O'Hara, Kuhic and Bruen (ENROLL_PATIENT,ATTESTATION_REQUIRED)",False,True
+664,"Chinese Community Health Plan","Chinese Community Health Plan- Internal",False,True
+370049,"Reg_55","Reg_55",True,True
+370054,"Randy's Excellent Contract","Randys Great Policy",False,True
+370039,"Outcomes Sample Client 1 Contract","Considine, Schultz and Mante (NO_CMR)",False,True
+370013,"Bailey, Durgan and Veum","Williamson-Mertz (TIPS_ONLY)",True,True
+370038,"Outcomes Sample Client 1 Contract","Medicare Plan",True,True
+370036,"Zulauf, Streich and Leuschke","Rau and Sons (CMR_FIRST,TIP_ONLY)",False,True
+370019,"O'Kon-Schroeder","Pouros, Adams and Walter (ONE_CMR_CAL_YEAR)",False,True
+370029,"ion test","1.47.0",False,True
+370030,"Schroeder Inc","Lowe, Rau and Schaden (ATTESTATION_REQUIRED)",True,True
+370028,"OMTM Test Contract","Test OMTM",False,True
+370027,"Outcomes Sample Client 1 Contract","Kuhlman, Satterfield and Hudson (CMR_FIRST,TIPS_ONLY)",False,True
+370021,"Maggio, Rath and Ward","Gusikowski Group (NO_CMR,MULTI_CMRS_CAL_YEAR)",True,True
+37004,"CONTRACT20000","CMR, No Phone POLICY (37004)",True,True
+370015,"Gulgowski and Sons","Mante Group (TIPS_ONLY)",True,True
+370014,"Gulgowski and Sons","Kautzer Inc (TIPS_ONLY)",True,True
+300007,"CONTRACT20000","NO CMR, NO TIPS POLICY (300007)",True,True
+370012,"Bailey, Durgan and Veum","Grant LLC (TIPS_ONLY)",True,True
+38006,"CONTRACT20000","CMR, No PA Code POLICY (38006)",True,True
+370007,"CONTRACT20000","NO CMR, NO TIPS POLICY (370007)",True,True
+38003,"CONTRACT20000","CMR, TIPS AND PRESCRIBER CONSULTATION POLICY (38003)",True,True
+38004,"CONTRACT20000","CMR, No Phone POLICY (38004)",True,True
+37005,"CONTRACT20000","CMR, No Telehealth POLICY (37005)",True,True
+38001,"CONTRACT20000","TIPS ONLY POLICY (38001)",True,True
+38000,"CONTRACT20000","TIPS AND CMR ONLY POLICY (38000)",True,True
+38002,"CONTRACT20000","CMR FIRST TIPS ONLY POLICY (38002)",True,True
+37006,"CONTRACT20000","CMR, No PA Code POLICY (37006)",True,True
+36002,"CONTRACT20000","CMR FIRST TIPS ONLY POLICY (36002)",True,True
+37003,"CONTRACT20000","CMR, TIPS AND PRESCRIBER CONSULTATION POLICY (37003)",True,True
+2002,"FUSE CONTRACT #1","FUSE TIP & PI POLICY #1",True,True
+37002,"CONTRACT20000","CMR FIRST TIPS ONLY POLICY (37002)",True,True
+36004,"CONTRACT20000","CMR, No Phone POLICY (36004)",True,True
+36006,"CONTRACT20000","CMR, No PA Code POLICY (36006)",True,True
+37001,"CONTRACT20000","TIPS ONLY POLICY (37001)",True,True
+36003,"CONTRACT20000","CMR, TIPS AND PRESCRIBER CONSULTATION POLICY (36003)",True,True
+36005,"CONTRACT20000","CMR, No Telehealth POLICY (36005)",True,True
+30005,"CONTRACT20000","CMR, No Telehealth POLICY (30005)",True,True
+30006,"CONTRACT20000","CMR, No PA Code POLICY (30006)",True,True
+2004,"CONNECT CONTRACT #1","CONNECT MIMIC #378",True,True
+30000,"CONTRACT20000","TIPS AND CMR ONLY POLICY (30000)",True,True
+2005,"CONNECT CONTRACT #1","CONNECT MIMIC #383",True,True
+30002,"CONTRACT20000","CMR FIRST TIPS ONLY POLICY (30002)",True,True
+30010,"CONTRACT20000","NoCenterPatient POLICY (30010)",True,True
+30003,"CONTRACT20000","CMR, TIPS AND PRESCRIBER CONSULTATION POLICY (30003)",True,True
+30004,"CONTRACT20000","CMR, No Phone POLICY (30004)",True,True
+36001,"CONTRACT20000","TIPS ONLY POLICY (36001)",True,True
+36000,"CONTRACT20000","TIPS AND CMR ONLY POLICY (36000)",True,True
+2003,"REGRESSION TEST CONTRACT #1","REGRESSION TEST  TIP & PI POLICY #1",True,True
+2001,"FUSE CONTRACT #1","FUSE PI ONLY POLICY #1",True,True
+2000,"FUSE CONTRACT #1","FUSE TIP ONLY POLICY #1",True,True
+535,"BCBS ND Default Contract","FLORIDA BLUE - BLUE MEDICARE PPO",True,True
+417,"United Health Care","UHC-UNITEDHEALTHCARE NURSING HOME PLAN",True,True
+370010,"Outcomes Sample Client 2 Contract","UX Test Policy",True,True
+370074,"Auer and Sons","MedSync Test Policy (ENROLL_PATIENT)",False,True
+370076,"Kuphal and Sons","Schmitt, Abshire and Ankunding (CMR_FIRST,TIP_ONLY)",False,True
+370078,"Money Tree","Randy RX Pro Ultimate",True,True
+370079,"Metz, Grant and Morar","FU TIP Policy (ENROLL_PATIENT,MEDICAL_DATA_TAB)",False,True
+370081,"Boyer, Weber and Morissette","Rau Inc (MEDICAL_DATA_TAB,LAB_DATA)",False,True
+370083,"Outcomes Sample Client 1 Contract","Emmerich, Gusikowski and Marks",False,True
+370084,"Herman-Collins","FU TIP Policy (ENROLL_PATIENT)",True,True
+370086,"Randy's New Contract","Randy's New Policy",True,True
+370087,"Walker-Mills","MSFU Test 123 (MEDICAL_DATA_TAB)",False,True
+370089,"McClure-Reynolds","Zender Attestation (ATTESTATION_REQUIRED,TIP_ONLY)",True,True
+370091,"Rippin, Kling and Sipes","Zender Test Policy 1111 (ATTESTATION_REQUIRED,TIP_ONLY)",False,True
+370095,"Runolfsson, Lubowitz and Lynch","Schultz Inc (CMR_FIRST,TIP_ONLY)",False,True
+370096,"Reilly, Ryan and Carroll","Konopelski, Dibbert and Bins (CMR_FIRST,TIP_ONLY)",True,True
+370098,"Wintheiser, Prosacco and Wisoky","Mitchell Group (CMR_FIRST,TIP_ONLY)",True,True
+1025,"Outcomes Sample Client 2 Contract","UCare Medicaid",False,True
+370101,"Outcomes Sample Client 1 Contract","Gerlach Group",False,True
+370102,"Outcomes Sample Client 1 Contract","Attestation Center Exclusion",True,True
+370105,"Ferry-Rohan","Stiedemann, Tromp and Rowe (CMR_FIRST,TIP_ONLY)",True,True
+370108,"Outcomes Sample Client 1 Contract","Sample Outcomes Policy 3",True,True
+370111,"Outcomes Sample Client 1 Contract","Test Policy Name 123",True,True
+370113,"Randy's Special Contract","Randy's Special Policy",True,True
+370115,"Reg test","Reg test",True,True
+370116,"Outcomes Sample Client 2 Contract","Pharma rite aid policy test (ENROLL_PATIENT,ALLOW_DOCUMENTATION_OF_MULTIPLE_CMRS_IN_A_YEAR,ATTESTAT)",False,True
+370117,"Dickens Inc","POCS Services (ENROLL_PATIENT,CMR_FIRST)",False,True
+370118,"Dickens Inc","POCS Not enabledd (ENROLL_PATIENT)",False,True
+30009,"CONTRACT20000","30009 PrimaryPatientIndicator",False,True
+370124,"Moen Group","SH-Policy-Attestation",False,True
+370125,"Metz Inc","SH-Attestation-Policy1",False,True
+370128,"Tillman LLC","MyPharmacyPolicy1",True,True
+370135,"CONTRACT 10000","NEW_POLICY_TEST",True,True
+370134,"UPMC Default Contract","NEW_POLICY",True,True
+433,"BCBS ND Default Contract","Florida Blue - BlueMedicare Regional PPO",True,True
+370068,"Cardinal Health, Inc.","Aetna Test",False,True
+356,"AultCare Default Contract","AULTCARE HMO",True,True
+142,"MedicareFirst Default Contract","MEDI-CAREFIRST PDP",True,True
+370133,"Partnership Health Plan (PHC) Default Contract","CAH - TEST - POLICY - OFFSHORE",True,True
+397,"Blue Shield of California Default Contract","BLUE SHIELD OF CALIFORNIA PDP",True,True
+548,"Blue Cross Blue Shield of Rhode Island","BCBS OF RHODE ISLAND REFERRALS",False,True
+548,"Blue Cross Blue Shield of Rhode Island","BCBS OF RHODE ISLAND REFERRALS",False,True
+507,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Commercial",True,True
+396,"Blue Shield of California Default Contract","BLUE SHIELD 65 PLUS MAPD",True,True
+370085,"Contractname_dummy","Policename_dummy",False,True
+532,"BCBS ND Default Contract","BCBS OF ALABAMA BLUERX",True,True
+540,"BCBS ND Default Contract","BCBS of Illinois (H3822)",True,True
+533,"BCBS ND Default Contract","BCBS OF ALABAMA BLUE ADVANTAGE",True,True
+522,"BCBS ND Default Contract","BCBS of South Carolina - MedBlue Rx",True,True
+370132,"UPMC Default Contract","PolicyA- Offshore-Test-Nov30",False,True
+370220,"Kshlerin, Quitzon and Luettgen","Needs Refill Test Policy (ENROLL_PATIENT,LAB_DATA)",False,True
+370141,"CONTRACT_10002","offshore-test-jan04",False,True
+370222,"O'Hara, Zemlak and Bayer","Howe, Pagac and Wiza (CMR_FIRST,TIP_ONLY)",True,True
+370226,"Outcomes Sample Client 1 Contract","chloe test policy 2/3 (CMR_FIRST)",True,True
+2000002,"Automation contract","Automation policy 3",False,True
+2000004,"Automation contract","Automation policy 4",False,True
+2000006,"Automation contract","Automation policy 6",False,True
+2000007,"Automation contract","Automation policy 7",False,True
+2000008,"Automation contract","Automation policy 8",False,True
+2000010,"Automation contract","Automation policy 10",False,True
+2000011,"Automation contract","Automation policy 11",False,True
+2000013,"Automation contract","Automation policy 13",False,True
+433,"BCBS ND Default Contract","Florida Blue - BlueMedicare Regional PPO",True,True
+370166,"Strosin-Greenfelder","ML Test Policy (MEDICAL_DATA_TAB)",True,True
+2000017,"Automation contract","Automation policy 17",True,True
+370175,"Rutherford-Bernier","eHealth Policy 2",True,True
+470139,"UPMC Default Contract","test 470139",True,True
+370158,"UPMC Default Contract","rocky since 1970",True,True
+504,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Medicare- PCMH",False,True
+627,"ATRIO Health Plans","ATRIO Health Plans H3814",True,True
+624,"ATRIO Health Plans","ATRIO Health Plans H5995",True,True
+370167,"Communty Health Group Default Contract","fee testing10",False,True
+370123,"UPMC Default Contract","Automation Test Policy4",True,True
+370169,"UPMC Default Contract","28Sep_Policy",True,True
+370112,"Contract 123","policy 123 test",False,True
+391,"Amerigroup Default Contract","AMERIGROUP LOUISIANA",True,True
+388,"Amerigroup Default Contract","AMERIGROUP KANSAStest",True,True
+370193,"UPMC Default Contract","new test default 10",False,True
+370122,"UPMC Default Contract","Cardinal Trigger Policy 2",True,True
+30009,"CONTRACT20000","30009 PrimaryPatientIndicator",False,True
+370130,"CareSource Default Contract","Test-Sep30-offshore",False,True
+370132,"UPMC Default Contract","PolicyA- Offshore-Test-Nov30",False,True
+507,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Commercial",True,True
+505,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Commercial- PCMH",False,True
+506,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Medicare BlueCHiP",True,True
+504,"Blue Cross Blue Shield of Rhode Island","BCBS Rhode Island Medicare- PCMH",False,True
+627,"ATRIO Health Plans","ATRIO Health Plans H3814",True,True
+624,"ATRIO Health Plans","ATRIO Health Plans H5995",True,True
+370126,"Weissnat-Schaden","SH-Attestation-Policy-5",False,True
+626,"ATRIO Health Plans","ATRIO Health Plans H6743",True,True
+370127,"Watsica-Zieme","SH-Attestation-Policy6",False,True
+625,"ATRIO Health Plans","ATRIO Health Plans H7006",True,True
+276,"ATRIO Default Contract","ATRIO HEALTH",True,True
+370104,"Randy's Even Newer Contract","Randy's Newest Policy",False,True
+370131,"Brookshire Grocery","Brookshire-Attestation-v2",True,True
+370133,"Partnership Health Plan (PHC) Default Contract","CAH - TEST - POLICY - OFFSHORE",True,True
+370121,"UPMC Default Contract","Cardinal Test Trigger Policy",True,True
+370107,"Bergnaum LLC","NewTherapyPolicy2 (DIAGNOSIS_CODES)",True,True
+370093,"Randy's EZ PZ Contract","Randy's Perfect Policy",False,True
+370100,"Outcomes Sample Client 1 Contract","testPolicy",False,True
+370147,"sdp_test","Test policy 27 April - edited",False,True
+370174,"Rutherford-Bernier","eHealth Policy",True,True
+2000015,"Automation contract","Automation policy 15",False,True
+370106,"Satterfield and Sons","NewTherapyPolicy (DIAGNOSIS_CODES)",False,True
+370197,"Automation Contract","Automation Policy 2",True,True
+370094,"Outcomes Sample Client 1 Contract","attestation_test (ATTESTATION_REQUIRED)",True,True
+2000012,"Automation contract","Automation policy 12",False,True
+370146,"UPMC Default Contract","Policy_offshore_test",True,True
+2000016,"Automation contract","Automation policy 16",False,True
+2000005,"Automation contract","Automation policy 5",True,True
+370140,"UPMC Default Contract","Test stage 23122021",True,True
+370169,"UPMC Default Contract","28Sep_Policy",True,True
+2000000,"Automation contract","Automation policy 1",True,True
+370097,"Rohan, Christiansen and Parisian","Doyle LLC (CMR_FIRST,TIP_ONLY)",False,True
+370092,"Kunde, Gleason and Sauer","Wolf Inc (CMR_FIRST,TIP_ONLY)",False,True
+370090,"Rempel, Klocko and Waelchi","Zender policy attestation (TIP_ONLY,ATTESTATION_REQUIRED)",True,True
+370088,"New Contract1","New Policy1",False,True
+370170,"Contract_28Sep","Policy_28Sep",True,True
+370068,"Cardinal Health, Inc.","Aetna Test",False,True
+370082,"McKenzie LLC","Zender FU Tip Policy (TIP_ONLY)",True,True
+370078,"Money Tree","Randy RX Pro Ultimate",True,True
+2000009,"Automation contract","Automation policy 9",True,True
+370075,"Kerluke-Weimann","Schowalter-Spinka (CMR_FIRST,TIP_ONLY)",False,True
+370073,"Outcomes Sample Client 1 Contract","Tromp-Witting",True,True
+370077,"Jakubowski, Kreiger and Larson","CMRFirstTestPolicy (CMR_FIRST)",True,True
+1636,"Outcomes Sample Client 2 Contract","TEST - Pharma-Retail Independents",False,True
+548,"Blue Cross Blue Shield of Rhode Island","BCBS OF RHODE ISLAND REFERRALS",False,True
+2000014,"Automation contract","Automation policy 14",False,True
+370194,"Cardinal Health, Inc.","gg1",False,True
+370184,"UPMC Default Contract","new test default 5",False,True
+370161,"UPMC Default Contract","expire 1",False,True
+370167,"Communty Health Group Default Contract","fee testing10",False,True
+370103,"Point Of Care Testing","POCT",True,True
+470140,"UPMC Default Contract","test 470139",False,True
+370195,"Walmart","Walmart",False,True
+370080,"Metz, Grant and Morar","Welch-Douglas (DIAGNOSIS_CODES,NO_PHONE_CMR)",False,True
+370112,"Contract 123","policy 123 test",False,True
+370203,"Automation Contract","Automation Policy 10",True,True
+370204,"Automation Contract","Automation Policy 11",True,True
+370196,"Automation Contract","Automation Policy 1",True,True
+370139,"Outcomes Sample Client 1 Contract","AutomationTest",True,True
+370201,"Automation Contract","Automation Policy 6",True,True
+370198,"Automation Contract","Automation Policy 3",True,True
+370172,"Automation Contract","Automation Policy 9",False,True
+370196,"Automation Contract","Automation Policy 1",True,True
+370199,"Automation Contract","Automation Policy 4",True,True
+370207,"Cardinal Health, Inc.","new b1",False,True
+370224,"Outcomes Sample Client 1 Contract","Chloe Test Polict (CMR_FIRST)",True,True
+370200,"Automation Contract","Automation Policy 5",True,True
+370209,"UPMC Default Contract","new b3",False,True
+370225,"Outcomes Sample Client 1 Contract","adam policy test",False,True
+370179,"UPMC Default Contract","new test default 1",False,True
+421,"Humana Default Contract","HUMANA STARS PROGRAM (DTM)",True,True
+352,"GoodStart Default Contract","GOODSTART FOR FREESTYLE",False,True
+277,"informedRX Default Contract","HAWAII EMPLOYER-UNION HEALTH BENEFITS TRUST FUND MEDICARE",True,True
+370193,"UPMC Default Contract","new test default 10",False,True
+370165,"Outcomes Sample Client 2 Contract","Hodkiewicz Group (CMR_FIRST)",False,True
+370142,"CONTRACT_10002","Test policy",True,True
+370070,"Schamberger, Predovic and Ondricka","Test Med Sync Policy (MEDICAL_DATA_TAB)",False,True
+370043,"New Contract","New Policy",False,True
+370201,"Automation Contract","Automation Policy 6",True,True
+370059,"Outcomes Sample Client 1 Contract","PSDP TEST",False,True
+370024,"Schowalter, Kshlerin and Braun","Kohler-Thompson (ONE_CMR_CAL_YEAR)",False,True
+360007,"CONTRACT20000","NO CMR, NO TIPS POLICY (360007)",True,True
+38005,"CONTRACT20000","CMR, No Telehealth POLICY (38005)",True,True
+37000,"CONTRACT20000","TIPS AND CMR ONLY POLICY (37000)",True,True
+30001,"CONTRACT20000","TIPS ONLY POLICY (30001)",True,True
+362,"Windsor Default Contract","WINDSOR FRESENIUS",True,True
+359,"Windsor Default Contract","WINDSOR MAPD",True,True
+370211,"UPMC Default Contract","new r1",False,True
+370212,"UPMC Default Contract","new r2",False,True
+370227,"Outcomes Sample Client 1 Contract","alex test policy  (CMR_FIRST)",True,True
+370213,"UPMC Default Contract","new b4",False,True
+370216,"UPMC Default Contract","new b7",False,True
+370202,"Automation Contract","Automation Policy 7",True,True
+370219,"OReilley Pharmacy","OReilley Pharmacy",True,True
+370215,"UPMC Default Contract","new b6",False,True
+370208,"UPMC Default Contract","new b2",False,True
+370208,"UPMC Default Contract","new b2",False,True
+370217,"UPMC Default Contract","new d1",False,True
+370210,"UPMC Default Contract","new bulk1",False,True
+370069,"sdp_test","SDP TEST",False,True
+370171,"Automation Contract","Automation Policy 8",True,True
+370139,"Outcomes Sample Client 1 Contract","AutomationTest",True,True
+370195,"Walmart","Walmart",False,True
+370010,"Outcomes Sample Client 2 Contract","UX Test Policy",True,True
+416,"United Health Care","UHC-UNITEDHEALTHCARE MEDICARE",True,True
+417,"United Health Care","UHC-UNITEDHEALTHCARE NURSING HOME PLAN",True,True
+370080,"Metz, Grant and Morar","Welch-Douglas (DIAGNOSIS_CODES,NO_PHONE_CMR)",False,True
+370192,"Contract 123","Sample-Test",False,True
+370069,"sdp_test","SDP TEST",False,True
+533,"BCBS ND Default Contract","BCBS OF ALABAMA BLUE ADVANTAGE",True,True
+370206,"Automation Contract","Automation Policy 14",True,True
+370121,"UPMC Default Contract","Cardinal Test Trigger Policy",True,True
+370171,"Automation Contract","Automation Policy 8",True,True
+22,"City Of Ames Default Contract","CITY OF AMES EMPLOYEES",True,True
+370202,"Automation Contract","Automation Policy 7",True,True
+370200,"Automation Contract","Automation Policy 5",True,True
+370205,"Automation Contract","Automation Policy 13",True,True
+370114,"Brookshire Grocery","Brookshire Grocery (TIP_ONLY,NO_CMR,HIDE_PRIOR_AUTH_CODE)",False,True
+396,"Blue Shield of California Default Contract","BLUE SHIELD 65 PLUS MAPD",True,True
+577,"CareSource Default Contract","CareSource Indiana Exchange - Just4Me",True,True
+370214,"UPMC Default Contract","b5",False,True
+370199,"Automation Contract","Automation Policy 4",True,True
+532,"BCBS ND Default Contract","BCBS OF ALABAMA BLUERX",True,True
+370123,"UPMC Default Contract","Automation Test Policy4",True,True
+397,"Blue Shield of California Default Contract","BLUE SHIELD OF CALIFORNIA PDP",True,True
+370133,"Partnership Health Plan (PHC) Default Contract","CAH - TEST - POLICY - OFFSHORE",True,True
+378,"CareSource Default Contract","CARESOURCE MEDICAID",True,True
+30,"Cardinal Health, Inc.","Care Connections Fuse",True,True
+262,"Humana Default Contract","CAREPLUS MTM",True,True
+370228,"Outcomes Sample Client 1 Contract","elaina test policy (CMR_FIRST)",False,True
+370229,"Gutmann, Kilback and Balistreri","Test AMC Policy (ENROLL_PATIENT)",True,True
+370230,"Outcomes Sample Client 1 Contract","policy test 2/9 (ENROLL_PATIENT)",True,True
+370221,"Rogahn, Metz and Schneider","Needs Refill Policy 2 (ENROLL_PATIENT,LAB_DATA)",True,True
+370223,"Kassulke LLC","90_day_policy (ENROLL_PATIENT)",False,True
+10,"Outcomes Sample Client 1 Contract","Outcomes Sample Policy 1",True,True
+10,"Outcomes Sample Client 1 Contract","Outcomes Sample Policy 1",True,True
+370231,"Outcomes Sample Client 1 Contract","kroger sample policy (TIP_ONLY)",True,True
+370232,"Outcomes Sample Client 1 Contract","test 2/9  (ATTESTATION_REQUIRED,POLICY_SUPPLIES_THIER_OWN_PATIENT_LIST)",False,True
+370233,"HL-CONTRACT-001","HL-Offshore-Policy-Test",True,True
