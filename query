@@ -1,0 +1,6 @@
+select distinct pc.policyID,dc.contractName,dp.policyName,pc.addUnlistedPatient from outcomes.dbo.PolicyConfig  as pc
+join outcomes.dbo.Policy as dp
+on pc.policyID = dp.policyID
+join outcomes.dbo.Contract as dc
+on dc.contractID =dp.contractID
+where pc.connectActive = 1 order by pc.policyID asc;
