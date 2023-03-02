@@ -1,0 +1,1 @@
+update auth.dbo.users WITH (ROWLOCK) set completedTraining=0, completedTrainingDT=null where username in ('test2.emily.test2');
