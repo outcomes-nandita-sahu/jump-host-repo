@@ -1,0 +1,4 @@
+{"type":"SERVICE-SCHEDULE-EVENT","result":{"globalServiceVersion":2,"legacyTipID":2689,"serviceID":1125,"isPublished":1,"startDate":"2023-06-05T04:00:00.000Z","endDate":null}}
+
+
+{"type":"SERVICE-CHANGE-EVENT","result":{"globalServiceVersion":1,"legacyTipID":2689,"serviceID":1125,"isPublished":1,"startDate":"2023-05-17T08:02:51.647Z","endDate":"2023-06-05T03:59:59.999Z"}}
