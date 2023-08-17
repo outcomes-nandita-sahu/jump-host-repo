@@ -4,3 +4,11 @@ select * from policy."PolicyS3Logos" where "s3LogoName" ~* '[^a-z0-9]';
 
 select * from policy."PolicyS3Documents" where "s3DocumentName"   ~* '[^a-zA-Z0-9]';
 select * from policy."PolicyS3Documents" where "s3DocumentName" like  '%\+%';
+
+
+
+
+SELECT * FROM policy."PolicyS3LogoMapping" where "policyS3LogoID" in (select "policyS3LogoID" from policy."PolicyS3Logos" where "s3LogoName" like '%\+%' );
+
+
+select "s3LogoName" from policy."PolicyS3Logos" where "s3LogoName" like '%\+%';
