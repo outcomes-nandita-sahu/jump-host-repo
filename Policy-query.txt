@@ -1,0 +1,1 @@
+SELECT "validFrom" as DeactivateDate , "policyID" FROM policy."PolicyConfig" where "policyID" in( 370100,370244,370235,370111,370159) and "connectActive" = false;
