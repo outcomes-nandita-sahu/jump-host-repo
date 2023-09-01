@@ -1,1 +1,10 @@
 SELECT "validFrom" as DeactivateDate , "policyID" FROM policy."PolicyConfig" where "policyID" in( 370100,370244,370235,370111,370159) and "connectActive" = false;
+
+
+
+
+SELECT * FROM "attunityPolicy"."PolicyConfig" where "policyID" = 417;
+
+select pl."policyName",pc."policyID",pc."activeAsOf" as deactivateDate from 
+"attunityPolicy"."Policy" as pl inner join "attunityPolicy"."PolicyConfig" as pc
+on pl."policyID" = pc."policyID" and pc."connectActive" = false and pc."policyID" in (370100,370244,417);
