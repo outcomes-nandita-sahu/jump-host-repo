@@ -1,0 +1,4 @@
+Stream component 'st_0_hl-sql01-outcomes-ls' terminated
+Stream component failed at subtask 0, component st_0_hl-sql01-outcomes-ls 
+Error executing command
+File 'E:\datalabs\sql01-outcomes-ls\sql01-outcomes-ls\LOG_STREAM\audit_service\20230724112231028389\685' already purged, position does not exist
