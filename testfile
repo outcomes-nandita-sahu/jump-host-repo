@@ -1,0 +1,8 @@
+CREATE TABLE dbo.PolicyPatientRepoDataIdentifier (
+    policyPatientRepoDataIdentifierID BIGINT IDENTITY(1,1) PRIMARY KEY,
+    policyName VARCHAR(100) NOT NULL,
+    policyID INT NOT NULL,
+    isPatientRepoOnly BIT NOT NULL,
+    policyType VARCHAR(100) NOT NULL,
+    createdOn DATETIME NULL
+)
