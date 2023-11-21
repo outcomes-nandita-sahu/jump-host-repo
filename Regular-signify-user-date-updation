@@ -1,0 +1,9 @@
+update auth.dbo.users WITH (ROWLOCK) set lastActivityDT='2023-12-31', lastLoginDT='2023-12-31' where username like 'SIGNIFYHEALTHUSER%';
+
+
+select count(*) from auth.dbo.users where username like 'SIGNIFYHEALTHUSER%';
+
+select * from auth.dbo.users where username like 'SIGNIFYHEALTHUSER%';
+
+
+select distinct createDT  from auth.dbo.users where username like 'SIGNIFYHEALTHUSER%';
