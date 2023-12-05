@@ -1,0 +1,1 @@
+insert into outcomes.dbo.PolicyPatientRepoDataIdentifier values ((select policyName from outcomes.dbo.Policy where policyID=370195),370195,0,'PHARMACY',getDate());
