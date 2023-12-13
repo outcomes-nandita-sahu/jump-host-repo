@@ -1,13 +1,9 @@
-
-SELECT
-    json_build_object(
-        'policyNCPDPMappingID', json_agg("policyNCPDPMappingID"),
-        'policyID', json_agg("policyID"),
-		'policyName', json_agg("policyName"),
-		'ncpdps', json_agg("ncpdps"),
-		'createdAt', json_agg("createdAt"),
-		'createdBy', json_agg("createdBy"),
-		'updatedAt', json_agg("updatedAt"),
-		'updatedBy', json_agg("updatedBy")
-    )
-FROM policy."PolicyNCPDPMappings" ;
+SELECT json_agg(json_build_object('policyNCPDPMappingID',"policyNCPDPMappingID",
+                                  'policyID',"policyID",
+								  'policyName', ("policyName"),
+								'ncpdps', ("ncpdps"),
+		'createdAt', ("createdAt"),
+		'createdBy', ("createdBy"),
+		'updatedAt', ("updatedAt"),
+		'updatedBy', ("updatedBy")
+))  from policy."PolicyNCPDPMappings";
