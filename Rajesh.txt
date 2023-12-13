@@ -1,0 +1,8 @@
+CREATE TYPE program."enum_SNSMessageSystemAck_ackSystem_new" AS ENUM('SD');
+ALTER TABLE program."SNSMessageSystemAck"
+    ALTER COLUMN "ackSystem"
+    SET DATA TYPE program."enum_SNSMessageSystemAck_ackSystem_new"
+        USING "ackSystem"::text::program."enum_SNSMessageSystemAck_ackSystem_new";
+		
+DROP TYPE program."enum_SNSMessageSystemAck_ackSystem";
+ALTER TYPE program."enum_SNSMessageSystemAck_ackSystem_new" RENAME TO "enum_SNSMessageSystemAck_ackSystem";
