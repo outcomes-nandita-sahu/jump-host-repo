@@ -142,7 +142,7 @@ select "policyID","policyName"  from policy."Policy" where "policyName" in (
 'RCS - Barney''s Pharmacy',
 'RCS - BARONS DRUG STORE, WESTFIELD',
 'RCS - BARRY LATHAMS DRUG',
-'RCS - BASINGER''s PHARMACY, MARYCREST',
+'RCS - BASINGER''S PHARMACY, MARYCREST',
 'RCS - Bass Rutledge Drug',
 'RCS - Bath Rx Inc dba Bath Drug',
 'RCS - Bay Park Pharmacy Corp, BROOKLYN',
