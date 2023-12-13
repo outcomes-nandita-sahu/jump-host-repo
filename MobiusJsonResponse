@@ -1,0 +1,122 @@
+[
+  {
+    "policyNCPDPMappingID": 1,
+    "policyID": 370419,
+    "policyName": "RCS - 110 PHARMACY AND SURGICAL, MELVILLE9263",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 2,
+    "policyID": 370420,
+    "policyName": "RCS - 110 PHARMACY AND SURGICAL, MELVILLE6751",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 3,
+    "policyID": 370421,
+    "policyName": "RCS - 15TH STREET PHARMACY, TUSCALOOSA9504",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 4,
+    "policyID": 370422,
+    "policyName": "RCS - 161 ST PHARMACY & SURGICAL SUPPLIES, BRONX7991",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 5,
+    "policyID": 370423,
+    "policyName": "RCS - 161 ST PHARMACY & SURGICAL SUPPLIES, BRONX8995",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 6,
+    "policyID": 370424,
+    "policyName": "RCS - 90-15 Roosevelt Avenue Corp dba Mi Farmacia5994",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 7,
+    "policyID": 370425,
+    "policyName": "RCS - 986 PHARMACY #80068256",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 8,
+    "policyID": 370426,
+    "policyName": "RCS - 986 Pharmacy #80072165",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 9,
+    "policyID": 370427,
+    "policyName": "RCS - 986 Pharmacy #80106444",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 10,
+    "policyID": 370428,
+    "policyName": "RCS - 986 Pharmacy #80116259",
+    "ncpdps": [
+      "3302659"
+    ],
+    "createdAt": "2023-12-08T13:44:23.542301+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  }
+]
