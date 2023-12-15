@@ -1,0 +1,5 @@
+select po.policyID,po.policyName,pc.policyid,pc.centerID,p.NCPDP_NABP 
+from outcomes.dbo.policy po
+left join outcomes.dbo.policyCenter pc on pc.policyid=po.policyID
+left join outcomes.dbo.pharmacy p on p.centerid=pc.centerID
+where po.contractID in (select c.contractID from outcomes.dbo.Contract c where c.clientID=17)
