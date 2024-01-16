@@ -11,3 +11,22 @@ ALTER TABLE "attunityPolicy"."PolicyType" DISABLE TRIGGER ADD_UPDATE_POLICY_TYPE
 
 ALTER TABLE "public"."Client" DISABLE TRIGGER ADD_UPDATE_CLIENT_TRIGGER;
 ALTER TABLE "public"."Contract" DISABLE TRIGGER ADD_UPDATE_CONTRACT_TRIGGER;
+
+
+truncate tables :
+=========
+TRUNCATE TABLE service."ServiceAttributes" CASCADE;
+ALTER SEQUENCE IF EXISTS service."ServiceAttributes_serviceAttributesID_seq" RESTART WITH 1;
+
+TRUNCATE TABLE service."Service" CASCADE;
+ALTER SEQUENCE IF EXISTS service."Service_serviceID_seq" RESTART WITH 1;
+
+TRUNCATE TABLE service."ServiceModuleConfig" CASCADE;
+ALTER SEQUENCE IF EXISTS service."ServiceModuleConfig_serviceModuleConfigID_seq" RESTART WITH 1;
+
+TRUNCATE TABLE service."SQSMessageDetails" CASCADE;
+ALTER SEQUENCE IF EXISTS service."SQSMessageDetails_sqsMessageDetailsId_seq" RESTART WITH 1;
+
+TRUNCATE TABLE program."ProgramServiceMappings" CASCADE;
+ALTER SEQUENCE IF EXISTS program."ProgramServiceMappings_programServiceMappingID_seq" RESTART WITH 1;
+
