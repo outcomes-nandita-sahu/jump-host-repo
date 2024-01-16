@@ -1,2 +1,13 @@
 https://aocwxapatt02.fusehealth.io/attunityreplicate/2023.5.0.152/#!/taskMonitoring/hl-sql01-outcomes-ls-pg-prgmconfig
 https://aocwxapatt02.fusehealth.io/attunityreplicate/2023.5.0.152/#!/taskMonitoring/hl-sql01-outcomes-sec-ls-pg-pgcf
+
+
+ALTER TABLE "attunityservice"."TIPDetailRule" DISABLE TRIGGER EXPIRE_TIP;
+ALTER TABLE "attunityservice"."TIPDetailRule" DISABLE TRIGGER SERVICE_ATTRIBUTES_TRIGGER;
+
+ALTER TABLE "attunityPolicy"."Policy" DISABLE TRIGGER ADD_UPDATE_POLICY_TRIGGER;
+ALTER TABLE "attunityPolicy"."PolicyConfig" DISABLE TRIGGER ADD_UPDATE_POLICY_CONFIG_TRIGGER;
+ALTER TABLE "attunityPolicy"."PolicyType" DISABLE TRIGGER ADD_UPDATE_POLICY_TYPE_TRIGGER;
+
+ALTER TABLE "public"."Client" DISABLE TRIGGER ADD_UPDATE_CLIENT_TRIGGER;
+ALTER TABLE "public"."Contract" DISABLE TRIGGER ADD_UPDATE_CONTRACT_TRIGGER;
