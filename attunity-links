@@ -30,3 +30,10 @@ ALTER SEQUENCE IF EXISTS service."SQSMessageDetails_sqsMessageDetailsId_seq" RES
 TRUNCATE TABLE program."ProgramServiceMappings" CASCADE;
 ALTER SEQUENCE IF EXISTS program."ProgramServiceMappings_programServiceMappingID_seq" RESTART WITH 1;
 
+
+
+
+--Execute Procedures
+
+CALL attunityservice.sp_map_servicefromlegacytip();
+CALL attunityservice.sp_update_service_attributes();
