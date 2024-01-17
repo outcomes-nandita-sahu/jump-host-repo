@@ -1,0 +1,7 @@
+select * from policy."PolicyConfig" where "validFrom" <= now() and ("validTill" >=now() or "validTill" is null) and "policyID" in(	
+select distinct p."policyID" from (	
+SELECT  lm."policyID",lm."s3LogoMappingID", pl."policyS3LogoMappingID", pl."isDefaultLogo" , pl."legacyLogoID", pl."isDeleted",pl. "displayPlanName", pl."validFrom", pl."validTill", pl.pbp, pl."cmsContractNumber", pl.carrier
+FROM policy."PolicyS3LogoMapping" lm
+join policy."PolicyLogoPlans" pl on lm."s3LogoMappingID" =  pl. "policyS3LogoMappingID" and pl. "isDefaultLogo" is true 
+and  pl."validFrom" <= now() and (pl."validTill" >=now() or pl."validTill" is null)
+order by "policyID" asc) p);
