@@ -1,0 +1,14 @@
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371382,'hl-morbis-poc1RCS - 110 PHARMACY AND SURGICAL, MELVILLE' , '{1715373}', NOW(), 'SYSTEM');
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371383,'hl-morbis-poc1RCS - 15TH STREET PHARMACY, TUSCALOOSA' , '{1715640}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371384,'hl-morbis-poc1RCS - 161 ST PHARMACY & SURGICAL SUPPLIES, BRONX' , '{1716060}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371385,'hl-morbis-poc1RCS - 90-15 Roosevelt Avenue Corp dba Mi Farmacia' , '{1716692}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371386,'hl-morbis-poc1RCS - 986 PHARMACY #8006' , '{1717024}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371387, 'hl-morbis-poc1RCS - 986 Pharmacy #8007', '{1717101}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371388,'hl-morbis-poc1RCS - 986 Pharmacy #8010' , '{1717997}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371389, 'hl-morbis-poc1RCS - 986 Pharmacy #8011', '{1718545}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371390, 'hl-morbis-poc1RCS - 986 PHARMACY, Monterey Park', '{1718571}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371391, 'hl-morbis-poc1RCS - 986 PHARMACY, TEMPLE CITY', '{1718901}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371392,'hl-morbis-poc1RCS - 986 Specialty Pharmacy Pasaden, PASADENA' , '{1720641}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371393, 'hl-morbis-poc1RCS - A & M Pharmacy and Surgical Supplies', '{1721186}', NOW(), 'SYSTEM');	
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371394,'hl-morbis-poc1RCS - A Health Plus & Pharmacy-Kingsport' , '{1722126}', NOW(), 'SYSTEM');
+INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy") VALUES (371395,'hl-morbis-poc1RCS - A Healthplus & Pharmacy' , '{1722330}', NOW(), 'SYSTEM');
