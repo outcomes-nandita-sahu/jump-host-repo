@@ -1,0 +1,170 @@
+[
+  {
+    "policyNCPDPMappingID": 1,
+    "policyID": 371382,
+    "policyName": "hl-morbis-poc1RCS - 110 PHARMACY AND SURGICAL, MELVILLE",
+    "ncpdps": [
+      "1715373"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 2,
+    "policyID": 371383,
+    "policyName": "hl-morbis-poc1RCS - 15TH STREET PHARMACY, TUSCALOOSA",
+    "ncpdps": [
+      "1715640"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 3,
+    "policyID": 371384,
+    "policyName": "hl-morbis-poc1RCS - 161 ST PHARMACY & SURGICAL SUPPLIES, BRONX",
+    "ncpdps": [
+      "1716060"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 4,
+    "policyID": 371385,
+    "policyName": "hl-morbis-poc1RCS - 90-15 Roosevelt Avenue Corp dba Mi Farmacia",
+    "ncpdps": [
+      "1716692"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 5,
+    "policyID": 371386,
+    "policyName": "hl-morbis-poc1RCS - 986 PHARMACY #8006",
+    "ncpdps": [
+      "1717024"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 6,
+    "policyID": 371387,
+    "policyName": "hl-morbis-poc1RCS - 986 Pharmacy #8007",
+    "ncpdps": [
+      "1717101"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 7,
+    "policyID": 371388,
+    "policyName": "hl-morbis-poc1RCS - 986 Pharmacy #8010",
+    "ncpdps": [
+      "1717997"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 8,
+    "policyID": 371389,
+    "policyName": "hl-morbis-poc1RCS - 986 Pharmacy #8011",
+    "ncpdps": [
+      "1718545"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 9,
+    "policyID": 371390,
+    "policyName": "hl-morbis-poc1RCS - 986 PHARMACY, Monterey Park",
+    "ncpdps": [
+      "1718571"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 10,
+    "policyID": 371391,
+    "policyName": "hl-morbis-poc1RCS - 986 PHARMACY, TEMPLE CITY",
+    "ncpdps": [
+      "1718901"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 11,
+    "policyID": 371392,
+    "policyName": "hl-morbis-poc1RCS - 986 Specialty Pharmacy Pasaden, PASADENA",
+    "ncpdps": [
+      "1720641"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 12,
+    "policyID": 371393,
+    "policyName": "hl-morbis-poc1RCS - A & M Pharmacy and Surgical Supplies",
+    "ncpdps": [
+      "1721186"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 13,
+    "policyID": 371394,
+    "policyName": "hl-morbis-poc1RCS - A Health Plus & Pharmacy-Kingsport",
+    "ncpdps": [
+      "1722126"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  },
+  {
+    "policyNCPDPMappingID": 14,
+    "policyID": 371395,
+    "policyName": "hl-morbis-poc1RCS - A Healthplus & Pharmacy",
+    "ncpdps": [
+      "1722330"
+    ],
+    "createdAt": "2024-01-18T08:07:51.620479+00:00",
+    "createdBy": "SYSTEM",
+    "updatedAt": null,
+    "updatedBy": null
+  }
+]
