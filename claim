@@ -1,3 +1,3 @@
-cc-client-operations-program-configuration-dev.cluster-cukimq938igp.us-east-1.rds.amazonaws.com
+"DB_HOST": "{env:fluffle=cc-client-operations-program-configuration-dev.cluster-cukimq938igp.us-east-1.rds.amazonaws.com,stage=cc-client-operations-program-configuration-dev.cluster-cukimq938igp.us-east-1.rds.amazonaws.com,prod=cc-client-operations-program-configuration-prod.cluster-cukimq938igp.us-east-1.rds.amazonaws.com
 
 service
