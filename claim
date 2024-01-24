@@ -1,2 +1,7 @@
 SELECT  message FROM program."SNSMessageDetails" where application = 'SC' AND message -> 'result' ->> 'serviceID' IN
 	('826','1237','1238','1239','737','1240','393','1001')  
+
+-- Will delete the drafts for the provided ServiceIDs 
+-- CALL service.delete_service_drafts(
+-- 	ARRAY[826,1237,1238,1239,737,1240,393,1001]::INT[]
+-- )
