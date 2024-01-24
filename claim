@@ -1,3 +1,2 @@
-"DB_HOST": "{env:fluffle=cc-client-operations-program-configuration-dev.cluster-cukimq938igp.us-east-1.rds.amazonaws.com,stage=cc-client-operations-program-configuration-dev.cluster-cukimq938igp.us-east-1.rds.amazonaws.com,prod=cc-client-operations-program-configuration-prod.cluster-cukimq938igp.us-east-1.rds.amazonaws.com
-
-service
+SELECT  message FROM program."SNSMessageDetails" where application = 'SC' AND message -> 'result' ->> 'serviceID' IN
+	('826','1237','1238','1239','737','1240','393','1001')  
