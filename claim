@@ -37,3 +37,12 @@ AS
 -- CALL service.delete_service_drafts(
 -- 	ARRAY[826,1237,1238,1239,737,1240,393,1001]::INT[]
 -- )
+
+INSERT INTO service."AttributesDefinition"(name, description, "createdAt", "categoryName") VALUES ('NEEDS MEDICATION RECONCILIATION', 'TIPs that leverage the Needs medication reconciliation reason code/workflow', NOW(),'TIP Reason');
+INSERT INTO service."AttributesDefinition"(name, description, "createdAt", "categoryName") VALUES ('NEEDS MEDICATION SYNCHRONIZATION', 'TIPs that leverage the Needs medication synchronization reason code/workflow', NOW(),'TIP Reason');
+INSERT INTO service."AttributesDefinition"(name, description, "createdAt", "categoryName") VALUES ('NEEDS MEDICATION SYNCHRONIZATION FOLLOW-UP', 'TIPs that leverage the Needs medication synchronization follow-up reason code/workflow', NOW(),'TIP Reason');
+
+UPDATE service."AttributesMaster"
+	SET "metadata"=
+	(SELECT json_build_object('attributes', (select json_agg("attributesDefinitionID") from service."AttributesDefinition")::JSON))
+	WHERE "attributesMasterID"=1;
