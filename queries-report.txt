@@ -1,0 +1,30 @@
+select * from (
+    select * from (
+    select * from  (
+    select * from (
+    select * from (
+select * from policy."PolicyLogoPlans" where 
+"policyS3LogoMappingID" in 
+(select  "s3LogoMappingID" from  policy."PolicyS3LogoMapping"  where "policyID" in
+(select "policyID" from policy."Policy")) ) s1 join policy."PolicyS3LogoMapping" pm on 
+s1."policyS3LogoMappingID" = pm."s3LogoMappingID"
+) s2 join policy."PolicyS3Logos" p3 on s2."policyS3LogoID" = p3."policyS3LogoID"
+) s3 join policy."Policy" p4 on  s3."policyID" = p4."policyID"
+) s4 join policy."Contract" p5 on s4."contractID" = p5."contractID"
+) s5 join policy."Client" p6 on s5."clientID" = p6."clientID" where s5."clientID" =234;
+
+---------------
+select * from (
+    select * from (
+    select * from  (
+    select * from (
+    select * from (
+select * from policy."PolicyDocumentPlans" where 
+"policyS3DocumentMappingID" in 
+(select  "s3DocumentMappingID" from  policy."PolicyS3DocumentMapping"  where "policyID" in
+(select "policyID" from policy."Policy")) ) s1 join policy."PolicyS3DocumentMapping" pm on 
+s1."policyS3DocumentMappingID" = pm."s3DocumentMappingID"
+) s2 join policy."PolicyS3Documents" p3 on s2."policyS3DocumentID" = p3."policyS3DocumentID"
+) s3 join policy."Policy" p4 on  s3."policyID" = p4."policyID"
+) s4 join policy."Contract" p5 on s4."contractID" = p5."contractID"
+) s5 join policy."Client" p6 on s5."clientID" = p6."clientID" where s5."clientID" =234;
