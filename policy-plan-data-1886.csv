@@ -1,0 +1,5 @@
+"logoPlanID","policyS3LogoMappingID","pbp","cmsContractNumber","carrier","account","group","displayPlanName","isDefaultLogo","validFrom","validTill","createdAt","createdBy","updatedAt","updatedBy","legacyLogoID","isDeleted"
+8302,1723,NULL,"H2293",NULL,NULL,NULL,"Aetna Medicare",False,"2023-01-01 05:00:00+00",NULL,"2022-12-08 12:01:25.868785+00","441324","2022-12-19 03:01:28.81078+00","441324",NULL,True
+10059,1827,NULL,NULL,NULL,NULL,NULL,"Aetna Medicare",True,"2024-01-17 05:00:00+00",NULL,"2024-01-16 15:27:26.16703+00","316544","2024-01-16 18:58:33.699062+00","316544",NULL,True
+10062,1827,NULL,"	H2293",NULL,NULL,NULL,"Aetna Medicare",False,"2024-01-17 05:00:00+00",NULL,"2024-01-16 18:59:04.507842+00","316544","2024-01-16 18:59:04.507842+00",NULL,NULL,False
+8424,1827,NULL,"H2293",NULL,NULL,NULL,"Aetna Medicare",False,"2023-01-01 05:00:00+00","2024-01-17 04:59:59.999+00","2022-12-19 03:01:55.255808+00","441324","2024-01-16 15:25:50.183099+00","316544",NULL,False
