@@ -47,3 +47,34 @@ AS
 -- CALL service.delete_service_drafts(
 -- 	ARRAY[826,1237,1238,1239,737,1240,393,1001]::INT[]
 -- )
+
+
+
+
+
+
+=====================
+NOTICE:  serviceID 826
+NOTICE:  draftVersion 2
+NOTICE:  serviceID 1237
+NOTICE:  draftVersion 3
+NOTICE:  serviceID 1238
+NOTICE:  draftVersion 2
+NOTICE:  serviceID 1239
+NOTICE:  draftVersion 2
+NOTICE:  serviceID 737
+NOTICE:  draftVersion 2
+NOTICE:  serviceID 1240
+NOTICE:  draftVersion 2
+NOTICE:  serviceID 393
+NOTICE:  draftVersion 2
+NOTICE:  serviceID 1001
+NOTICE:  draftVersion 4
+NOTICE:  serviceID 738
+NOTICE:  draftVersion 2
+NOTICE:  serviceID 739
+NOTICE:  draftVersion 2
+CALL
+
+Query returned successfully in 76 msec.
+
