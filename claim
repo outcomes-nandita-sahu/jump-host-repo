@@ -1,80 +1,8 @@
--- Run the INSERT query one by one HL1721
-INSERT INTO service."AttributesDefinition"(name, description, "createdAt", "categoryName") VALUES ('NEEDS MEDICATION RECONCILIATION', 'TIPs that leverage the Needs medication reconciliation reason code/workflow', NOW(),'TIP Reason');
-
-INSERT INTO service."AttributesDefinition"(name, description, "createdAt", "categoryName") VALUES ('NEEDS MEDICATION SYNCHRONIZATION', 'TIPs that leverage the Needs medication synchronization reason code/workflow', NOW(),'TIP Reason');
-
-INSERT INTO service."AttributesDefinition"(name, description, "createdAt", "categoryName") VALUES ('NEEDS MEDICATION SYNCHRONIZATION FOLLOW-UP', 'TIPs that leverage the Needs medication synchronization follow-up reason code/workflow', NOW(),'TIP Reason');
-
-UPDATE service."AttributesMaster"
-	SET "metadata"=
-	(SELECT json_build_object('attributes', (select json_agg("attributesDefinitionID") from service."AttributesDefinition")::JSON))
-	WHERE "attributesMasterID"=1;
-
--- HL1721
-CREATE OR replace PROCEDURE service.delete_service_drafts(ServiceIDs INT[])
-AS
-  $$
-  DECLARE i INT;
-  DECLARE draftVersion INT;
-  BEGIN
-	foreach i IN ARRAY ServiceIDs
-    LOOP
-      RAISE notice 'serviceID %', i;
-	  
-      draftVersion = (SELECT "globalServiceVersion"  FROM service."Service" WHERE "serviceID" = i AND "validFrom" IS NULL AND "validTill" IS NULL AND "isPublished" = 0);
-      RAISE notice 'draftVersion %', draftVersion;
-	  
-      DELETE
-      FROM   service."ServiceAttributes"
-      WHERE  "serviceID" = i
-      AND    "globalServiceVersion" = draftVersion;
-            
-      DELETE
-      FROM   service."ServiceModuleConfig"
-      WHERE  "serviceID" = i
-      AND    "moduleVersion" = draftVersion;
-      
-      DELETE
-      FROM   service."Service"
-      WHERE  "serviceID" = i
-      AND    "globalServiceVersion" = draftVersion;
-    
-    END LOOP;
-    COMMIT;
-  END $$ LANGUAGE plpgsql;
-
--- Will delete the drafts for the provided ServiceIDs 
--- CALL service.delete_service_drafts(
--- 	ARRAY[826,1237,1238,1239,737,1240,393,1001]::INT[]
--- )
-
-
-
-
-
-
-=====================
-NOTICE:  serviceID 826
-NOTICE:  draftVersion 2
-NOTICE:  serviceID 1237
-NOTICE:  draftVersion 3
-NOTICE:  serviceID 1238
-NOTICE:  draftVersion 2
-NOTICE:  serviceID 1239
-NOTICE:  draftVersion 2
-NOTICE:  serviceID 737
-NOTICE:  draftVersion 2
-NOTICE:  serviceID 1240
-NOTICE:  draftVersion 2
-NOTICE:  serviceID 393
-NOTICE:  draftVersion 2
-NOTICE:  serviceID 1001
-NOTICE:  draftVersion 4
-NOTICE:  serviceID 738
-NOTICE:  draftVersion 2
-NOTICE:  serviceID 739
-NOTICE:  draftVersion 2
-CALL
-
-Query returned successfully in 76 msec.
-
+{
+  "db-host": "cc-client-operations-program-configuration-dev-cluster.cluster-cdgs0i48e8t7.us-east-1.rds.amazonaws.com",
+  "db-name": "postgres",
+  "db-password-ddl": "pcdb_admin",
+  "db-schema": "policy",
+  "db-username-ddl": "pcdb_admin",
+  "node-env": "staging"
+}
