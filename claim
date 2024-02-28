@@ -2,4 +2,4 @@ SELECT "serviceID", "serviceName", "serviceDisplayName", "globalServiceVersion",
 count(*) FROM service."Service" GROUP BY "serviceID","globalServiceVersion","legacyTIPDetailID" HAVING COUNT (*) > 1
 
 SELECT "serviceID", "serviceName", "serviceDisplayName", "globalServiceVersion", "validFrom", "validTill", "isPublished", "serviceTypeID", "createdAt", "createdBy", "updatedAt", "updatedBy", "legacyTIPDetailID", "serviceType", status FROM service."Service" 
-WHERE  "legacyTIPDetailID"='3005'
+WHERE  "legacyTIPDetailID"='1982'
