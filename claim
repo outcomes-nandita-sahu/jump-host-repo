@@ -1,8 +1,5 @@
-{
-  "db-host": "cc-client-operations-program-configuration-dev-cluster.cluster-cdgs0i48e8t7.us-east-1.rds.amazonaws.com",
-  "db-name": "postgres",
-  "db-password-ddl": "pcdb_admin",
-  "db-schema": "policy",
-  "db-username-ddl": "pcdb_admin",
-  "node-env": "staging"
-}
+SELECT "serviceID", "serviceName", "serviceDisplayName", "globalServiceVersion", "validFrom", "validTill", "isPublished", "serviceTypeID", "createdAt", "createdBy", "updatedAt", "updatedBy", "legacyTIPDetailID", "serviceType", status,
+count(*) FROM service."Service" GROUP BY "serviceID","globalServiceVersion","legacyTIPDetailID" HAVING COUNT (*) > 1
+
+SELECT "serviceID", "serviceName", "serviceDisplayName", "globalServiceVersion", "validFrom", "validTill", "isPublished", "serviceTypeID", "createdAt", "createdBy", "updatedAt", "updatedBy", "legacyTIPDetailID", "serviceType", status FROM service."Service" 
+WHERE  "legacyTIPDetailID"='3005'
