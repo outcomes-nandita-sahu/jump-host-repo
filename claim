@@ -43,3 +43,5 @@ CASE
     WHEN (("validFrom" IS NOT NULL) AND ("validFrom" < "validTill") AND service.ispastdate("validTill")) THEN 'INACTIVE'::service."enum_Service_status"
     ELSE NULL::service."enum_Service_status"
 END) STORED;
+
+UPDATE service."Service" SET "validTill"= "validTill"
