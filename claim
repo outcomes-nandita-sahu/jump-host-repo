@@ -1,5 +1,33 @@
-SELECT "serviceID", "serviceName", "serviceDisplayName", "globalServiceVersion", "validFrom", "validTill", "isPublished", "serviceTypeID", "createdAt", "createdBy", "updatedAt", "updatedBy", "legacyTIPDetailID", "serviceType", status,
-count(*) FROM service."Service" GROUP BY "serviceID","globalServiceVersion","legacyTIPDetailID" HAVING COUNT (*) > 1
+DROP FUNCTION IF EXISTS service.isfuturedate(timestamp with time zone);
 
-SELECT "serviceID", "serviceName", "serviceDisplayName", "globalServiceVersion", "validFrom", "validTill", "isPublished", "serviceTypeID", "createdAt", "createdBy", "updatedAt", "updatedBy", "legacyTIPDetailID", "serviceType", status FROM service."Service" 
-WHERE  "legacyTIPDetailID"='1982'
+CREATE OR REPLACE FUNCTION service.isfuturedate(
+	timestamp with time zone)
+    RETURNS boolean
+    LANGUAGE 'sql'
+    COST 100
+    IMMUTABLE PARALLEL UNSAFE
+AS $BODY$
+SELECT CASE WHEN $1 > CURRENT_TIMESTAMP
+            THEN true ELSE false
+       END
+$BODY$;
+
+ALTER FUNCTION service.isfuturedate(timestamp with time zone)
+    OWNER TO pcdb_admin;
+
+DROP FUNCTION IF EXISTS service.ispastdate(timestamp with time zone);
+
+CREATE OR REPLACE FUNCTION service.ispastdate(
+	timestamp with time zone)
+    RETURNS boolean
+    LANGUAGE 'sql'
+    COST 100
+    IMMUTABLE PARALLEL UNSAFE
+AS $BODY$
+SELECT CASE WHEN $1 < CURRENT_TIMESTAMP
+            THEN true ELSE false
+       END
+$BODY$;
+
+ALTER FUNCTION service.ispastdate(timestamp with time zone)
+    OWNER TO pcdb_admin;
