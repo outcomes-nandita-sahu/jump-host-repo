@@ -1,0 +1,5 @@
+"documentPlanID","policyS3DocumentMappingID","pbp","cmsContractNumber","carrier","account","group","serviceQualifier","documentType","isDefaultDocument","validFrom","validTill","createdAt","createdBy","updatedAt","updatedBy","legacyDocumentID","isDeleted"
+1868,1235,NULL,NULL,NULL,NULL,NULL,"CMR","1st Additional PDF in SPT",True,"2024-01-25 05:00:00+00",NULL,"2024-01-25 03:04:27.547046+00","117957","2024-01-25 03:04:27.547046+00",NULL,NULL,False
+1403,1235,NULL,NULL,"DE01",NULL,NULL,"CMR","1st Additional PDF in SPT",False,"2024-01-03 05:00:00+00",NULL,"2023-12-13 17:10:06.483602+00","216672","2023-12-13 17:10:06.483602+00",NULL,NULL,False
+2040,1775,NULL,NULL,"DE01",NULL,NULL,"CMR","2nd Additional PDF in SPT",False,"2024-03-01 05:00:00+00",NULL,"2024-02-28 22:02:18.9374+00","450972","2024-02-29 22:42:28.462941+00","450972",NULL,True
+2065,1799,NULL,NULL,"DE01",NULL,NULL,"CMR","2nd Additional PDF in SPT",False,"2024-03-01 05:00:00+00",NULL,"2024-02-29 22:42:42.506156+00","450972","2024-02-29 22:42:42.506156+00",NULL,NULL,False
