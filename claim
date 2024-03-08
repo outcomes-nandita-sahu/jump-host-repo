@@ -1,1 +1,3 @@
-UPDATE service."Service" SET "validTill"= "validTill"
+-- CALL service.delete_service_drafts(
+-- 	ARRAY[826,1237,1238,1239,737,1240,393,1001]::INT[]
+-- )
