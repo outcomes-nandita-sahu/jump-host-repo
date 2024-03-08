@@ -1,0 +1,6 @@
+ALTER TABLE service."BulkServiceAttributesStatus"
+    OWNER to pcdb_admin;
+
+GRANT ALL ON TABLE service."BulkServiceAttributesStatus" TO pcdb_admin;
+
+GRANT DELETE, UPDATE, INSERT, SELECT ON TABLE service."BulkServiceAttributesStatus" TO pcdb_dml;
