@@ -1,3 +1,5 @@
--- CALL service.delete_service_drafts(
--- 	ARRAY[826,1237,1238,1239,737,1240,393,1001]::INT[]
--- )
+CREATE TYPE policy."enum_Policy_documentCategory" AS ENUM
+    ('MLI', 'Disclaimer', 'Survey', 'Other');
+	
+ALTER TABLE IF EXISTS policy."PolicyDocumentPlans"
+    ADD COLUMN IF NOT EXISTS "documentCategory" policy."enum_Policy_documentCategory"[];
