@@ -14,3 +14,13 @@ p7.centerID,p7.activeasof PolicyCentreActiveFrom,p7.activethru PolicyCentreActiv
 (select p1.policyID,p1.policyName,p2.clientID from dbo.Policy  p1 left join dbo.Contract p2 on p1.contractID = p2.contractID)p3  join dbo.PolicyConfig p4 
 on p3.policyID = p4.policyID)p5 where p5.activeThru is null ) p6   join dbo.policyCenter  p7  on p6.policyID = p7.policyid where p7.activethru is null)p8 left join dbo.pharmacy p9 
 on p8.centerID = p9.centerid;
+
+
+//////////////////
+select * from (select  p8.policyID , p8.policyName , p8.clientID,p8.connectActive,
+p8.centerID,p9.NCPDP_NABP,p8.PolicyCentreActiveFrom ,p8.PolicyCentreActiveTill PolicyCentreActiveTill from (select p6.policyID , p6.policyName , p6.clientID,p6.connectActive,
+p7.centerID,p7.activeasof PolicyCentreActiveFrom,p7.activethru PolicyCentreActiveTill from 
+(select * from (select p3.policyID , p3.policyName , p3.clientID,p4.connectActive,p4.activeAsOf,p4.activeThru from 
+(select p1.policyID,p1.policyName,p2.clientID from dbo.Policy  p1 left join dbo.Contract p2 on p1.contractID = p2.contractID)p3  join dbo.PolicyConfig p4 
+on p3.policyID = p4.policyID)p5 where p5.activeThru is null ) p6   join dbo.policyCenter  p7  on p6.policyID = p7.policyid where p7.activethru is null)p8 left join dbo.pharmacy p9 
+on p8.centerID = p9.centerid)p10 where p10.policyName like 'RCS -%';
