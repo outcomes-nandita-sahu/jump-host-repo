@@ -37,6 +37,16 @@ INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "c
 INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy", "clientID") VALUES (4581, (select "policyName" from policy."Policy" where "policyID" = 4581), '{3335785}', NOW(), 'SYSTEM',(SELECT cl."clientID" FROM policy."Policy" p left join policy."Contract" co on  co."contractID" = p."contractID" join policy."Client" cl on co."clientID" = cl."clientID" where p."policyID" = 4581));
 INSERT INTO policy."PolicyNCPDPMappings" ("policyID", "policyName", "ncpdps", "createdAt", "createdBy", "clientID") VALUES (2356, (select "policyName" from policy."Policy" where "policyID" = 2356), '{2700296}', NOW(), 'SYSTEM',(SELECT cl."clientID" FROM policy."Policy" p left join policy."Contract" co on  co."contractID" = p."contractID" join policy."Client" cl on co."clientID" = cl."clientID" where p."policyID" = 2356));
 
+SELECT json_agg(json_build_object('policyNCPDPMappingID',"policyNCPDPMappingID",
+                                  'policyID',"policyID",
+								  'policyName', ("policyName"),
+								'ncpdps', ("ncpdps"),
+		'createdAt', ("createdAt"),
+		'createdBy', ("createdBy"),
+		'updatedAt', ("updatedAt"),
+		'updatedBy', ("updatedBy"),
+    'clientID', ("clientID")
+))  from policy."PolicyNCPDPMappings";
 
 --UPDATE policy."PolicyNCPDPMappings" SET ncpdps = array_append(ncpdps, '---') WHERE  "policyID" = ----;
 
