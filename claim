@@ -1,5 +1,5 @@
-CREATE TYPE policy."enum_Policy_documentCategory" AS ENUM
+CREATE TYPE policy."enum_PolicyDocumentPlans_documentCategory" AS ENUM
     ('MLI', 'Disclaimer', 'Survey', 'Other');
 	
 ALTER TABLE IF EXISTS policy."PolicyDocumentPlans"
-    ADD COLUMN IF NOT EXISTS "documentCategory" policy."enum_Policy_documentCategory"[];
+    ADD COLUMN IF NOT EXISTS "documentCategory" policy."enum_PolicyDocumentPlans_documentCategory"[];
