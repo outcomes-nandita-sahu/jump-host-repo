@@ -10,3 +10,15 @@ on p8.centerID = p9.centerid)p10 where p10.policyName like 'RCS -%';
 
 
 select * from dbo.policyConfig;
+
+
+
+-----------new query-----------
+select  p7.policyID , p7.policyName , p7.clientID,p7.connectActive,p7.policyConfigActiveFrom,p7.policyConfigActiveTill,
+p7.centerID,p7.centerActiveFrom ,p7.centerActiveTill,p8.centername,p8.active,p8.NCPDP_NABP from (select p5.policyID , p5.policyName , p5.clientID,p5.connectActive,p5.activeAsOf policyConfigActiveFrom,p5.activeThru policyConfigActiveTill,
+p6.centerID,p6.activeasof centerActiveFrom ,p6.activethru centerActiveTill
+from (select p3.policyID , p3.policyName , p3.clientID,p4.connectActive,p4.activeAsOf,p4.activeThru from
+(select p1.policyID,p1.policyName,p2.clientID from dbo.Policy  p1 
+ join dbo.Contract p2 on p1.contractID = p2.contractID where p1.policyName like '%Mobius%')p3 left join dbo.PolicyConfig p4 
+on p3.policyID = p4.policyID)p5 left join dbo.policyCenter p6 on p5.policyID = p6.policyid)p7 left join dbo.pharmacy p8 
+on p7.centerID = p8.centerid ;
