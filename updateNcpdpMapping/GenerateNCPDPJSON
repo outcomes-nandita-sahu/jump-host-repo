@@ -1,0 +1,10 @@
+SELECT json_agg(json_build_object('policyNCPDPMappingID',"policyNCPDPMappingID",
+                                  'policyID',"policyID",
+								  'policyName', ("policyName"),
+								'ncpdps', ("ncpdps"),
+		'createdAt', ("createdAt"),
+		'createdBy', ("createdBy"),
+		'updatedAt', ("updatedAt"),
+		'updatedBy', ("updatedBy"),
+    'clientID', ("clientID")
+))  from policy."PolicyNCPDPMappings";
