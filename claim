@@ -1,2 +1,5 @@
 select * from "attunityPolicy"."PolicyConfig" where "policyID" NOT IN (SELECT "policyID" FROM policy."PolicyConfig" );
 
+SELECT count(*) FROM "policy"."PolicyConfig" 
+
+SELECT count(*) FROM "attunityPolicy"."PolicyConfig" 
