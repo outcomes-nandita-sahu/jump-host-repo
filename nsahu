@@ -1,0 +1,5 @@
+  DB_PORT: "5432"
+  DB_HOST: "cc-client-operations-program-configuration-prod-cluster.cluster-czq8gy4o491n.us-east-1.rds.amazonaws.com"
+  DB_NAME: "postgres"
+  DB_SCHEMA: "service"
+  DB_SSL: "true"
